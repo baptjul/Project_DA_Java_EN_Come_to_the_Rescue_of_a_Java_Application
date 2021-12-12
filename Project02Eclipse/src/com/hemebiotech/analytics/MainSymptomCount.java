@@ -9,8 +9,7 @@ public class MainSymptomCount {
 
 	public static void main(String args[]) {
 
-		ReadSymptomDataFromFile reader = new ReadSymptomDataFromFile(
-				"/Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application/Project02Eclipse/symptoms.txt");
+		ReadSymptomDataFromFile reader = new ReadSymptomDataFromFile("Project02Eclipse/symptoms.txt");
 		ArrayList<String> symptoms = new ArrayList<String>();
 		symptoms = (ArrayList<String>) reader.GetSymptoms();
 
