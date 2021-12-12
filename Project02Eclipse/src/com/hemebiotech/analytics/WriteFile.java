@@ -8,7 +8,7 @@ public class WriteFile {
 
 	public void writeInFile(Map<String, Integer> dataCount) throws IOException {
 		FileWriter writer = new FileWriter("result.out");
-		writer.write("List of Symptom(s): \r\n");
+		writer.write("List of Symptoms: \r\n");
 		for (Map.Entry<String, Integer> data : dataCount.entrySet()) {
 			writer.write(" for " + data.getKey() + " : " + data.getValue() + "\r\n");
 		}
