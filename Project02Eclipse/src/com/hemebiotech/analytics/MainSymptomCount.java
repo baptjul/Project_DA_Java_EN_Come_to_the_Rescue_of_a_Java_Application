@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class SymptomCount {
+public class MainSymptomCount {
 
 	public static void main(String args[]) {
 
