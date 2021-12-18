@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 
  * Simple brute force implementation
  *
  */
@@ -23,8 +24,14 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 		this.filepath = filepath;
 	}
 
+	/**
+	 * 
+	 * @return a simple list of all the symptoms found in the files
+	 * 
+	 */
+
 	@Override
-	public List<String> GetSymptoms() {
+	public List<String> getSymptoms() {
 		ArrayList<String> result = new ArrayList<String>();
 
 		if (filepath != null) {
@@ -42,7 +49,6 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 			}
 		}
 
-		// Collections.sort(result);
 		return result;
 	}
 
