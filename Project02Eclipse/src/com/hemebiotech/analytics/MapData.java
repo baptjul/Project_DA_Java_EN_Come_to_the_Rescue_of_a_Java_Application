@@ -13,7 +13,7 @@ public class MapData implements ISymptomMap {
 	/**
 	 * Change a list in a map for each iteration: increment in corrresponding key
 	 *
-	 * @param arrayList of all the symptoms with no specific sort
+	 * @param ArrayList of all the symptoms with no specific sort
 	 * @return Map containing sympotms as key and there number of iteration as value
 	 */
 

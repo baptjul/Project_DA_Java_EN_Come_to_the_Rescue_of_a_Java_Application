@@ -22,9 +22,10 @@ public class WriteFile {
 
 	/**
 	 * 
-	 * @param Map containing a key / value with, as key a symptom and asvalue the
-	 *            number of iteration
+	 * @param dataCount Map containing a key / value with, as key a symptom and
+	 *                  asvalue the number of iteration
 	 * 
+	 * @throws IOException le paramètre ne correspond pas
 	 */
 
 	public void writeInFile(Map<String, Integer> dataCount) throws IOException {

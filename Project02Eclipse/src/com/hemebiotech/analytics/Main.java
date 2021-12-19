@@ -9,7 +9,7 @@ import java.util.TreeMap;
  * Main class calling all the methodes
  */
 
-public class MainSymptomCount {
+public class Main {
 
 	/**
 	 * Select a file in wich the symptoms are listed to turn it into a list
