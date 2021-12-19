@@ -13,7 +13,6 @@ public class WriteFile {
 	private String fileReturn;
 
 	/**
-	 * 
 	 * @param fileReturn a full or partial path to file with all the symptoms listed
 	 */
 	public WriteFile(String fileReturn) {
@@ -21,7 +20,6 @@ public class WriteFile {
 	}
 
 	/**
-	 * 
 	 * @param dataCount Map containing a key / value with, as key a symptom and
 	 *                  asvalue the number of iteration
 	 * 
