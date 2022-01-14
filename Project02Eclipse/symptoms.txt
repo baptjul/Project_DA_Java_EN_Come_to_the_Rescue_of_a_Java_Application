@@ -57,6 +57,7 @@ nausea
 shortness of breath
 fever
 insomnia
+covid
 dizziness
 dizziness
 high blood pressure
@@ -75,6 +76,7 @@ tremor
 high blood pressure
 arrhythmias
 fever
+covid
 constricted pupils
 cough
 stiff neck
@@ -86,6 +88,7 @@ arrhythmias
 rash
 rash
 fever
+covid
 dry mouth
 fever
 high blood pressure

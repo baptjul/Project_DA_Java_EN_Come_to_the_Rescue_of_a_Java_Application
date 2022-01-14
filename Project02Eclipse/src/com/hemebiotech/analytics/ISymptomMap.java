@@ -1,6 +1,6 @@
 package com.hemebiotech.analytics;
 
-import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -11,8 +11,8 @@ public interface ISymptomMap {
 	/**
 	 * If no data is available, return an empty List
 	 * 
-	 * @param ArrayList a list of strings
+	 * @param list a list of strings
 	 * @return a sorted map of all the symptoms and how many time they're found
 	 */
-	Map<String, Integer> dataCount(ArrayList<String> ArrayList);
+	Map<String, Integer> dataCount(List<String> list);
 }
